@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--para crear el auto completado solo digitamos html y seleccionamos el 5 automaticamente debe de llevar las demas etiquetas-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oskar Marin</title>
+    <link rel="shortcut icon" type="image/x-icon" href="imagenes/r&m.ico">
+    <!--pagina para crear los iconos: https://www.favicongenerator.com/-->
+    <!--aca se crea el icono al lado del titulo de la pagina-->
+</head>
+
+<body>
+    <h1>Oskar Eduardo</h1>
+    <h2>Marin</h2>
+    <h3>Velquez</h3>
+    <p></p>
+    <!--este es un enter doble para separar el texto-->
+    <img src="imagenes/r&m.jpg" width="" alt="Rick&Morty">
+    <!--el width es para indicar el tamaño que se desea mostrar-->
+    <!-- el alt es para indicar un nombre referente a la imagen cuando esta no carga por problemas al cargar-->
+    <!--esta etiqueta no se cierra-->
+    <p></p>
+    <h2>TABLA</h2>
+    <tabLe border="2" align="center">
+        <!--aca se crea una tabla con un borde, la cual se puede centrar o colocar a los lados, por defecto toma al lado derecho-->
+        <th>Titulo celda1</th>
+        <th>Titulo celda2</th>
+        <th>Titulo celda3</th>
+        <!--con la etiqueta th se crean los titulos de las tablas-->
+        <tr>
+            <!--con la etiqueta tr se crean las filas de la table-->
+            <td>123456</td>
+            <!--con la etiqueta td se crean las celdas dentro de la tabla-->
+            <td>pancreas</td>
+            <td>789</td>
+        </tr>
+        <tr>
+            <td colspan="3">recuadro a parte 123456789</td>
+            <!--el atibuto colspan indica la cantidad de celdas que ocupara ya que la celda por defecto toma una  -->
+        </tr>
+        <td>recuadro simple</td>
+        <!--este celda se ve mas pequeña ya que no se indica cuantas celdas debe de ocupar-->
+        <tr>
+            <td colspan="2">recuadro simple</td>
+        </tr>
+        <tr>
+            <td>123456789</td>
+            <td colspan="2">abcdefghijk</td>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>
